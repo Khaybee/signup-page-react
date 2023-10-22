@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./taskimages/dark-withCircles.jpg);
+  background-size: cover;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.auth-form-container {
+  background-color: #fff;
+  width: 356px;
+  border-radius: 7px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+/* .signup-container {
+  padding: 0.5rem 1.5rem;
+} */
+
+.login-form, .signUp-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  outline: none;
+  font-size: 12px;
+}
+
+.checkboxFlex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.myCheckbox {
+  font-size: 0.8rem;
+}
+
+.forgotPass {
+  text-decoration: underline;
+}
+
+button {
+  padding: 0.7rem 0;
+  margin: 0.7rem 0;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 7px;
+}
+
+span, .forgotPass {
+  color: rgb(23, 70, 199);
+}
+
+.link-btn {
+  background-color: #fff;
+  color: black;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.withGoogle {
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(22, 21, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  font-weight: 500;
+}
